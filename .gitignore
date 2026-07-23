@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+out/
+
+# Environment files (Sensitive data)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large Model weights
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Local test artifacts
+*.png
+*.jpg
+*.jpeg
+!App/frontend/public/**/*
+!App/authority/public/**/*
